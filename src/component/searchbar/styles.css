@@ -1,0 +1,30 @@
+
+.searchbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C4C4C4;
+  height:55%;
+  max-width: 400px;
+  width:50%;
+  border-radius: 100px;
+  border:none;
+  outline: none;
+  text-align: right;
+  padding-right:10px;
+  padding-left:10px;
+  font-size: larger;
+  transition: background-color ease 150ms;
+}
+
+
+.searchbar:focus, .searchbar:hover{
+  background-color: #e7e7e7;
+}
+
+.searchbar::placeholder{
+    display: none;
+    text-align: center;
+    font-size: medium;
+  font-style: italic;
+}

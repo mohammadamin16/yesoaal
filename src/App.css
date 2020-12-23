@@ -1,8 +1,6 @@
 .App {
-  /*text-align: center;*/
   padding-top: 0;
   margin: 0;
-
 }
 
 .clickable{
@@ -36,32 +34,6 @@
   font-weight: bold;
 }
 
-.searchbar{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #C4C4C4;
-  height:55%;
-  max-width: 400px;
-  width:50%;
-  border-radius: 100px;
-  border:none;
-  outline: none;
-  text-align: right;
-  padding-right:10px;
-  padding-left:10px;
-  font-size: larger;
-  transition: background-color ease 150ms;
-}
-
-.searchbar:focus, .searchbar:hover{
-  background-color: #c9c9c9;
-}
-
-.searchbar::placeholder{
-  text-align: center;
-}
-
 .trademark{
   display: flex;
   align-items: center;
@@ -93,90 +65,6 @@
   height:100%;
 }
 
-.menu{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #A7EB9C;
-  width: 90px;
-  height: 85vh;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  border-radius: 100px;
-}
-
-.menu_option{
-  display: flex;
-  position: relative;
-  width: 70px;
-  height: 70px;
-  border-radius: 100px;
-  background-color: #BADBB5;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: 5px solid #0D8D0B;
-  transition: background-color ease 100ms;
-}
-
-
-.option_icon{
-  width:75%;
-}
-
-.menu-tooltip{
-  display: none;
-  position: absolute;
-  right:80px;
-  width:max-content;
-  border-radius: 5px;
-  background-color: rgba(137, 170, 137, 0.9);
-  /*color:wheat;*/
-  padding: 5px 10px;
-  cursor: default;
-  opacity: 0;
-  transition: opacity ease 4000ms ;
-}
-.menu-tooltip:hover{
-  display: none;
-  visibility: hidden;
-}
-
-.menu_option:hover{
-  background-color: #d9eed6;
-}
-
-.menu_option:hover .menu-tooltip{
-  display: block;
-  opacity: 1;
-  box-shadow: gray 0 0 10px 1px;
-}
-
-.my-points{
-  width:80px;
-  height: 80px;
-  border: none;
-  position: relative;
-  transition: none !important;
-  background-color: #0D8D0B;
-  font-size: 35px;
-  font-weight: bolder;
-  overflow: hidden;
-}
-
-.my-points:hover{
-  background-color: #0D8D0B;
-}
-
-.pts{
-  position: absolute;
-  font-size: x-small;
-  top: 45px;
-  /*left:45px;*/
-}
-
 .center-div{
   flex: 7;
   display: flex;
@@ -187,24 +75,29 @@
 
 .main_div{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: #8ACF7E;
   width:100%;
   height: 85vh;
   border-radius: 30px;
+  overflow: scroll;
 }
 
+.main_div::-webkit-scrollbar{
+  display: none;
+}
 
 .question{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:20px;
+  margin: 10px ;
   padding:10px;
   background-color: #BAFFAE;
   border-radius: 20px;
-  width: 90%;
+  width: available;
   height: min-content;
 }
 
@@ -246,7 +139,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 }
 
 .view_icon{
@@ -254,21 +146,20 @@
   padding: 0 5px;
 }
 
-
 .question_body{
-  /*background-color: white;*/
   margin:10px;
   padding:10px;
   width:80%;
 }
+
 .question_image_container{
   text-align: center;
   padding:20px 0;
 }
+
 .question_image{
   max-width:90%
 }
-
 
 .question_footer{
   display: flex;
@@ -280,6 +171,8 @@
 .question_owners_area{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .asked_by_tag{
@@ -312,6 +205,12 @@
   flex-direction: row;
 }
 
+.edit_icon{
+  width:20px;
+  height:20px;
+  margin-left: 10px;
+}
+
 .tag{
   background-color: #9CC895;
   display: flex;
@@ -324,9 +223,12 @@
   margin-right: 5px;
 }
 
+.answer{
+  background-color: #FFF7AE;
+}
+
 .left-div{
   flex: 2;
   height:100%;
   border-radius: 100px;
 }
-

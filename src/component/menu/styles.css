@@ -1,0 +1,80 @@
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #A7EB9C;
+  padding: 5px 5px;
+  border-radius: 100px;
+  /*box-shadow: gray 0 0 10px 1px;*/
+  transition: box-shadow ease 300ms;
+}
+
+.menu:hover{
+  box-shadow: gray 0 0 15px 1px;
+}
+
+.menu_option{
+  display: flex;
+  position: relative;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 100px;
+  background-color: #BADBB5;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 5px solid #0D8D0B;
+  transition: background-color ease 300ms;
+}
+
+.option_icon{
+  width:75%;
+}
+
+.menu-tooltip{
+  display: none;
+  position: absolute;
+  right:5vw;
+  width:max-content;
+  border: solid black 2px;
+  border-radius: 1000px;
+  background-color: rgba(137, 170, 137, 0.9);
+  padding: 5px 10px;
+  cursor: default;
+  box-shadow: gray 0 0 10px 1px;
+  transition: opacity ease 4000ms ;
+}
+
+.menu-tooltip:hover{
+  display: none;
+  visibility: hidden;
+}
+
+.menu_option:hover{
+  background-color: #d9eed6;
+}
+
+.menu_option:hover .menu-tooltip{
+  display: block;
+}
+
+.my-points{
+  position: relative;
+  transition: none;
+  background-color: #0D8D0B;
+  font-size: 2vw;
+  font-weight: bolder;
+  overflow: hidden;
+}
+
+.my-points:hover{
+  background-color: #0D8D0B;
+}
+
+.pts{
+  position: absolute;
+  font-size: x-small;
+  top: 45px;
+}
