@@ -3,10 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #C4C4C4;
+  background-color: #93AC92;
   height:55%;
-  max-width: 400px;
-  width:50%;
+  max-width: 300px;
+  width:30%;
   border-radius: 100px;
   border:none;
   outline: none;
@@ -26,5 +26,6 @@
     display: none;
     text-align: center;
     font-size: medium;
-  font-style: italic;
+    /*font-style: italic;*/
+    color:#283728;
 }

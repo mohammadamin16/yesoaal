@@ -1,0 +1,38 @@
+
+.answer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffdf8a;
+    border-radius: var(--radius);
+    width: 85%;
+    min-height: fit-content;
+}
+
+.best_answer{
+    background-color: #ffd768;
+    border:solid 3px #884E2D;
+}
+
+.answer_body {
+    font-size: large;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.star_container {
+    width:80px;
+    max-width: 10%;
+}
+
+.star_icon {
+    width: 100%;
+}
+.answer_image{
+    max-width:100%;
+    margin: 10px 0;
+}
+

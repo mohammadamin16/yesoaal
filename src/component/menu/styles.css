@@ -2,30 +2,32 @@
 .menu{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #A7EB9C;
+  justify-content: space-between;
+  background-color: #182B12;
+  height: 60%;
   padding: 5px 5px;
   border-radius: 100px;
-  /*box-shadow: gray 0 0 10px 1px;*/
   transition: box-shadow ease 300ms;
 }
 
 .menu:hover{
-  box-shadow: gray 0 0 15px 1px;
+  /*box-shadow: #000000 0 0 5px 1px;*/
 }
 
 .menu_option{
   display: flex;
   position: relative;
-  width: 4vw;
-  height: 4vw;
+  min-width: 3.5vw;
+  min-height: 3.5vw;
+  width: 3.5vw;
+  height: 3.5vw;
   border-radius: 100px;
   background-color: #BADBB5;
   justify-content: center;
   align-items: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: 5px solid #0D8D0B;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  border: 2px solid #0D8D0B;
   transition: background-color ease 300ms;
 }
 
@@ -43,7 +45,7 @@
   background-color: rgba(137, 170, 137, 0.9);
   padding: 5px 10px;
   cursor: default;
-  box-shadow: gray 0 0 10px 1px;
+  /*box-shadow: gray 0 0 10px 1px;*/
   transition: opacity ease 4000ms ;
 }
 
@@ -60,21 +62,30 @@
   display: block;
 }
 
-.my-points{
+.pts{
   position: relative;
   transition: none;
   background-color: #0D8D0B;
-  font-size: 2vw;
-  font-weight: bolder;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
-.my-points:hover{
+.pts:hover{
   background-color: #0D8D0B;
 }
 
-.pts{
-  position: absolute;
-  font-size: x-small;
-  top: 45px;
+.points {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:2.5vw;
+  height:2.5vw;
+  /*font-size: 2vw;*/
+  font-weight: bold;
+  border: solid black 1px;
+  border-radius: 100px;
+}
+
+.points_number{
+  /*background-color: red;*/
+  height: fit-content;
 }

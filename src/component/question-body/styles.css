@@ -1,0 +1,25 @@
+
+.question_body {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+.question_image_container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.question_image {
+    max-width: 90%
+}
+
+.black_line {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+.body_text {
+    margin:0;
+}

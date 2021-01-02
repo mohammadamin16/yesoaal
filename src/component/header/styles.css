@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #37B534;
+  height:8vh;
+  margin:0;
+}
+
+.user_info{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.avatar{
+  height:6vh;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.username{
+  padding: 10px;
+  font-weight: bold;
+}
+
+.trademark{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  height:8vh;
+}
+
+.site_name{
+  font-weight: bold;
+  padding:10px;
+  font-size: x-large;
+}

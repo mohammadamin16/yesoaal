@@ -1,0 +1,30 @@
+
+.comment {
+    display:flex;
+    align-items: center;
+    max-width:70%;
+    min-height: 20px;
+    max-height: 20px;
+    border-radius: var(--radius);
+    background-color: #C4EFC9;
+}
+
+.comment_text{
+    font-size: 80%;
+    padding: 0 20px;
+    font-style: italic;
+}
+
+.comment_owner{
+    display:flex;
+    align-items: center;
+    height:90%;
+    background-color: #B0D7B5;
+    border: solid 2px #48584A;
+    border-radius: 100px;
+}
+
+.comment_owner_username{
+    font-size: small;
+    margin: 0 10px;
+}

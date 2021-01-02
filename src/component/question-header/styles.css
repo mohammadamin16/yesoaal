@@ -1,0 +1,35 @@
+
+.question_header{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: solid 3px black;
+  border-radius: var(--radius);
+  height:40px;
+  /*background-color: red;*/
+}
+
+.question_title{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.view_status{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:85%;
+  border: 3px solid black;
+  padding: 2px 10px;
+  border-radius: var(--radius);
+}
+
+.view_icon{
+  height:100%;
+  /*padding: 0 5px;*/
+}

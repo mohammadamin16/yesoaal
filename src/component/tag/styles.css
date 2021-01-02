@@ -1,0 +1,20 @@
+
+.asked_by_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ACF7E;
+    border: 2px solid black;
+    font-size: 12px;
+    border-radius: 30px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.tag_text {
+    padding: 0 10px;
+}
+
+.secondary_color_tag{
+    background-color: #CFAF7E;
+}
