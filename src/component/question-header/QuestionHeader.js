@@ -7,13 +7,15 @@ import settings from "../../images/settings.png";
 import like_icon from "../../images/like.png";
 import views from "../../images/view.png";
 import LikeStatus from "../like_status";
+import SolvedBadge from "../solved_badge";
 
 export default function QuestionHeader (){
 	return(
 		<div className='question_header'>
 			<LikeStatus number={38}/>
-			<div className='question_title'>
+			<div className='question_title row'>
 				Q. 142 Gozineh2 (Aban-16)
+				<SolvedBadge />
 			</div>
 			<div className='view_status'>
 				<img src={views} className='view_icon'/>

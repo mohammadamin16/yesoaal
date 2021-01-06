@@ -1,3 +1,4 @@
 import QuestionBody from "./QuestionBody";
+import NewQuestionBody from "./NewQuestionBody";
 
-export default QuestionBody;
+export {QuestionBody, NewQuestionBody};

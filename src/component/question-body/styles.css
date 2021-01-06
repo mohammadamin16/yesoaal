@@ -3,6 +3,28 @@
     margin: 10px;
     padding: 10px;
     width: 80%;
+    /*height: fit-content;*/
+}
+
+.new_question_body{
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.question_image_picker{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #8DFD79;
+    min-height: 120px;
+    max-height: 120px;
+    min-width:120px;
+    border: solid black 2px;
+    border-radius: var(--radius);
 }
 
 .question_image_container {
@@ -14,6 +36,11 @@
     max-width: 90%
 }
 
+.question_add_image_text{
+    font-style: normal;
+    width: 100%;
+}
+
 .black_line {
     background-color: black;
     height: 2px;
@@ -22,4 +49,30 @@
 
 .body_text {
     margin:0;
+    font-size: large;
+    width:100%
+}
+
+.body_text_input{
+    outline: none;
+    border:none;
+    transition: color ease 500ms;
+    color:black;
+    /*height: max-content;*/
+    overflow: hidden;
+    font-family: Ubuntu, serif;
+    height: fit-content;
+    resize: none;
+}
+
+span.body_text_input[contenteditable]:empty::before {
+    content: 'type your question';
+    display: inline-block;
+    color:#0009;
+
+}
+span.body_text_input[contenteditable]:empty:focus::before {
+    content: 'start typing with smile :)';
+    color:#0009;
+
 }

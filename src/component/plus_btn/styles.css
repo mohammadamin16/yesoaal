@@ -1,0 +1,30 @@
+.plus_btn{
+    display: flex;
+    bottom: 8vh;
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100px;
+    background-color: #0D8D0B;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 6px 1px #000b ;
+    transition: all ease-in-out 300ms;
+    /*transition: box-shadow ease-in-out 300ms;*/
+    padding:2vh;
+}
+
+.plus_btn:hover{
+    background-color: #18bd15;
+    box-shadow: 1px 1px 10px 1px #000b ;
+}
+
+.plus_image{
+    width:100%;
+    transition: all ease-in-out 300ms;
+}
+
+.plus_btn:hover .plus_image{
+    transform: rotate(180deg);
+}

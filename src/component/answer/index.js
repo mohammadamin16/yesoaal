@@ -1,3 +1,4 @@
 import Answer from "./Answer";
+import NewAnswer from "./NewAnswer";
 
-export default Answer;
+export  {Answer, NewAnswer};

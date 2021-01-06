@@ -3,16 +3,15 @@ import './styles.css';
 import LikeStatus from "../like_status";
 import Tag from "../tag";
 import user1 from "../../images/businessman.png"
-import clock_icon from "../../images/clock.png"
+import check_icon from "../../images/check.png"
 
 export default function NewAnswer(props) {
 	return (
 		<div className="answer new-answer">
 				<div className='col info_col margin-s opacity-50' >
 					<LikeStatus number={0} disabled={true} />
-					<div className='row'>
-						<Tag image={user1} text="Your answer" secondary={true}/>
-					</div>
+
+					<Tag image={user1} text="Your answer" secondary={true}/>
 				</div>
 
 				<div className='col width-100' >
@@ -28,6 +27,10 @@ export default function NewAnswer(props) {
 					<span className='image_hint'>*good answers have good pictures!</span>
 					<div className='image_picker clickable'>
 						<span className='add_image_text'>add image</span>
+					</div>
+					<div className='submit_btn clickable'>
+						<span>Submit</span>
+						<img src={check_icon} className='check_icon'/>
 					</div>
 				</div>
 		</div>

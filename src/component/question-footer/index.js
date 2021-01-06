@@ -1,3 +1,4 @@
 import QuestionFooter from "./QuestionFooter";
+import NewQuestionFooter from "./NewQuestionFooter";
 
-export default QuestionFooter;
+export {QuestionFooter, NewQuestionFooter};

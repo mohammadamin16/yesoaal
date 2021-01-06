@@ -1,0 +1,12 @@
+
+.new-question{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px ;
+  padding:10px;
+  background-color: #BAFFAE;
+  border-radius: var(--radius);
+  width: 95%;
+}

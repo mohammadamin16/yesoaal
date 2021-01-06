@@ -1,3 +1,4 @@
 import QuestionHeader from "./QuestionHeader";
+import NewQuestionHeader from "./NewQuestionHeader";
 
-export default QuestionHeader;
+export {QuestionHeader, NewQuestionHeader};

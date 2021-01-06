@@ -3,6 +3,7 @@ import './styles.css';
 import user1 from "../../images/boy.png";
 import user2 from "../../images/businessman.png";
 import edit from "../../images/edit.png";
+import delete_icon from "../../images/delete.png";
 import clock from "../../images/clock.png";
 import Tag from "../tag";
 
@@ -23,6 +24,7 @@ export default function QuestionFooter (){
 						text={'3 hours ago'}
 					/>
 					<img src={edit} className="edit_icon clickable"/>
+					<img src={delete_icon} className="delete_icon clickable"/>
 
 				</div>
 				<div className='tag_area'>
