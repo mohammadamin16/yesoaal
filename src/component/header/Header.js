@@ -3,6 +3,7 @@ import './styles.css';
 import avatar from "../../images/man.png";
 import Searchbar from "../searchbar";
 import logo from "../../images/raise-hand.png";
+import {Link} from "react-router-dom";
 
 export default function Header() {
 	return (
@@ -13,8 +14,10 @@ export default function Header() {
 			</div>
 			<Searchbar />
 			<div className='trademark'>
-				<span className='site_name'>Solve It</span>
-				<img src={logo} className='logo'/>
+				<Link to={"/"} >
+					<span className='site_name'>Solve It</span>
+					<img src={logo} className='logo'/>
+				</Link>
 			</div>
 		</div>
 	)

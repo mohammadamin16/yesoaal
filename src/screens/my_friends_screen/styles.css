@@ -1,0 +1,9 @@
+
+.my_friends_screen{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    padding-top: var(--radius);
+    flex-direction: row;
+    flex-wrap: wrap;
+}

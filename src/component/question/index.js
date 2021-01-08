@@ -1,3 +1,4 @@
 import Question from "./Question";
+import QuestionPreview from "./QuestionPreview";
 
-export default Question;
+export {QuestionPreview, Question};

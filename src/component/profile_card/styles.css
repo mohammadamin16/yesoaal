@@ -1,0 +1,109 @@
+
+.profile_card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:5px;
+  background-color: #FFE589;
+  min-width: 400px;
+  height:170px;
+  width:40%;
+  border-radius: var(--radius);
+  transition: all ease-in-out 200ms;
+}
+
+.profile_card:hover {
+  background-color: #ffe16c;
+  box-shadow: 2px 2px 2px 1px #0002 ;
+
+}
+
+
+.divider{
+  background-color: black;
+  width: 8px;
+  height: 85%;
+}
+
+.big_avatar{
+  position: absolute;
+  border-radius: 1000px;
+  border: solid 2px black;
+  width:100%;
+}
+
+.profile_card_info{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 80%;
+}
+
+.profile_card_info .name{
+  font-size: large;
+  font-family: 'Saira Condensed', cursive;
+  overflow: hidden;
+}
+
+.profile_card_info .username{
+  padding:0;
+  margin:0;
+  font-size: small;
+  opacity: .5;
+  font-family: 'Salsa', cursive;
+}
+
+.profile_card_info .status{
+  opacity: .7;
+  font-family: 'Salsa', cursive;
+}
+
+.profile_card_info .joined_date{
+  font-family: 'Satisfy', cursive;
+  opacity: .8;
+}
+
+.profile_card_info .badge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: solid 2px #0E8D0B;
+  background-color: #0E8D0B55;
+  padding: 1px 5px;
+  color: #063605;
+  font-size: .7em;
+  font-family: 'Sarala', cursive;
+}
+
+.badge_icon{
+  height: 20px;
+  margin: 0 5px;
+}
+
+.avatar_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:200px;
+  margin: 0 10px;
+  position: relative;
+  height: 100%;
+}
+
+.point_badge{
+  right:.5vw;
+  bottom: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:4ch;
+  height:4ch;
+  position: absolute;
+  background-color: #0E8D0B;
+  border: solid 2px black;
+  border-radius: 1000px;
+  font-family: 'Saira Condensed', cursive;
+}

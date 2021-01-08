@@ -31,6 +31,10 @@
   transition: background-color ease 300ms;
 }
 
+.active_menu_option{
+  background-color: #D8F0D4;
+}
+
 .option_icon{
   width:75%;
 }
